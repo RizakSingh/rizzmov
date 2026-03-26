@@ -1,6 +1,7 @@
 import { router } from 'expo-router'
-import { YStack, Text, Button } from 'tamagui'
+import { YStack, Text, Button,} from 'tamagui'
 import { LinearGradient } from 'expo-linear-gradient'
+import { Link } from 'expo-router'
 
 export default function IndexScreen() {
   return (
