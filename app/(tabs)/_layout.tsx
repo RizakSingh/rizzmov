@@ -13,7 +13,7 @@ function TabIcon({ focused, icon }: { focused: boolean; icon: any }) {
       tension: 100,
       friction: 8,
     }).start()
-  }, [focused])
+  }, [focused,scale])
 
   return (
     <Animated.View style={{ transform: [{ scale }] }}>
